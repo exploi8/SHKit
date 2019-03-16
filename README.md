@@ -16,7 +16,7 @@ In order for you to install and setup the required software and hardware togethe
 
 
 
-Download latest RasparypiPi [(Raspbian Stretch) Operation System][Software] then burn it into a memory card, using either [win32diskimager][win32diskimager] or any other .img burn app you preffer.
+Download latest RasparypiPi :link: [(Raspbian Stretch) Operation System][Software] then burn it into a memory card, using either :link: [win32diskimager][win32diskimager] or any other .img burn app you preffer.
 
 **Prepare and initialize required repositories.**
 
