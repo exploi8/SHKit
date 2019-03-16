@@ -1,6 +1,21 @@
 
 [![Build Status](https://travis-ci.org/exploi8/SHKit.svg?branch=master)](https://travis-ci.org/exploi8/SHKit)
 
+**Introduction**
+
+First things first, you need to know the concept of connectiong a micro controller with a server to be able to walk throughout this guide with no problems.
+
+In order for you to install and setup the required software and hardware together you will need the following:
+
+>Hardware parts:
+
+ - RaspberryPi as a micro controller can be purshased from any online store.
+ - Relays module to preform switching an electrical component on and off simultaneously.
+ - Breadboard to make connections with I/O pins. (optional)
+ - Cables.
+
+
+
 Download latest RasparypiPi [(Raspbian Stretch) Operation System][Software] then burn it into a memory card, using either [win32diskimager][win32diskimager] or any other .img burn app you preffer.
 
 **Prepare and initialize required repositories.**
