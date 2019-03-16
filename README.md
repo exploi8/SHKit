@@ -1,4 +1,8 @@
-## Installation Guide ##
+![icon](https://ipool.remotewebaccess.com/wp-content/uploads/2019/03/HomeKit-Icon_4-100x100.jpg)
+
+## Smart Home Kit ##
+
+### Installation Guide ###
 [![Build Status](https://travis-ci.org/exploi8/SHKit.svg?branch=master)](https://travis-ci.org/exploi8/SHKit)
 
 **Introduction**
