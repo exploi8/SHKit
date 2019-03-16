@@ -29,7 +29,7 @@ pi@raspberrypi:~ $ cd SHKit
 
 ```
 
-[step 1](#step1)
+#### step 1 ####
 
 Download latest RasparypiPi [(Raspbian Stretch) Operation System][Software] then burn it into a memory card, using either [win32diskimager][win32diskimager] or any other .img burn app you preffer.
 
@@ -45,7 +45,7 @@ pi@raspberrypi:~ $ cd SHKit
 
 ```
 
-[step 2](#step2)
+#### step 2 ####
 
 Setup Node-RED for first time use:
 
@@ -67,7 +67,7 @@ pi@raspberrypi:~ $ sudo reboot
 
 ```
 
-[step 3](#step3)
+#### step 3 ####
 
 Auto start services on boot, by entering the following commands:
 
