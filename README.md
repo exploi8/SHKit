@@ -76,14 +76,14 @@ pi@raspberrypi:~/.node-red $ sudo reboot
 Now you can open your browser and point to your IP address and Node-RED default port 1880
 
 
-Flows Control Home Page
+##### Flows Control Home Page #####
 
 [http://127.0.0.1:1880](http://127.0.0.1:1880)
 
 ![Node-RED](https://ipool.remotewebaccess.com/wp-content/uploads/2019/03/IMG_9162.jpg)
 
 
-Dashboard Home Page
+##### Dashboard Home Page #####
 
 [http://127.0.0.1:1880/ui](http://127.0.0.1:1880/ui)
 
