@@ -44,22 +44,13 @@ pi@raspberrypi:~ $ cd SHKit
 #### step 2 ####
 
 Setup Node-RED for first time use:
-
+By now you should see virsions of npm and node:
 
 ```sh
 pi@raspberrypi:~ $ node -v
 v8.11.1
 pi@raspberrypi:~ $ npm -v
 1.4.21
-
-```
-
-If NOT showing the virsion of node and npm, you'll need to re-install it.
-
-```sh
-pi@raspberrypi:~ $ sudo apt-get install nodered
-pi@raspberrypi:~ $ sudo dpkg --configure -a
-pi@raspberrypi:~ $ sudpi@raspberrypi:~/.node-red o reboot
 
 ```
 
@@ -82,6 +73,15 @@ pi@raspberrypi:~ $ cd .node-red
 pi@raspberrypi:~/.node-red $ npm i node-red-dashboard
 pi@raspberrypi:~/.node-red $ sudo reboot
 ```
+Now you can open your browser and point to your IP address and Node-RED default port 1880
+
+[http://127.0.0.1:1880](http://127.0.0.1:1880)
+
+Dashboard Home Page
+[http://127.0.0.1:1880/ui](http://127.0.0.1:1880/ui)
+
+
+
 
 
 
