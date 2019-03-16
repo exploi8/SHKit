@@ -28,14 +28,20 @@ Download latest RasparypiPi :link: [(Raspbian Stretch) Operation System][Softwar
 
 **Prepare and initialize required repositories.**
 
+Set a static IP Address 
+
+
+Open Terminal and type the following commands:
+
 ```sh
-pi@raspberrypi:~ $ sudo apt-get update && apt-get upgrade -y
-pi@raspberrypi:~ $ sudo apt-get install python python3 ssh mysql apache2 cmatrix git php7.0
+pi@raspberrypi:~ $ sudo apt-get update && sudo apt-get upgrade -y
+pi@raspberrypi:~ $ sudo apt-get install python3 git php7.0 npm node
 pi@raspberrypi:~ $ cd /var/www/html/
 pi@raspberrypi:~ $ git clone https://github.com/exploi8/SHKit.git
 pi@raspberrypi:~ $ cd SHKit
 
 ```
+
 
 #### step 2 ####
 
@@ -66,6 +72,12 @@ Auto start services on boot, by entering the following commands:
 
 ```sh
 pi@raspberrypi:~ $ sudo systemctl enable nodered.service
+````
+You can specify the service you want it to run on boot with follwing syntax replacing ~~sample~~
+
+```sh
+sudo systemctl daemon-reload
+sudo systemctl enable sample.service
 
 ```
 
