@@ -35,13 +35,11 @@ Open Terminal and type the following commands:
 
 ```sh
 pi@raspberrypi:~ $ sudo apt-get update && sudo apt-get upgrade -y
-pi@raspberrypi:~ $ sudo apt-get install python3 git php7.0 npm node
-pi@raspberrypi:~ $ cd /var/www/html/
+pi@raspberrypi:~ $ sudo apt-get install npm
 pi@raspberrypi:~ $ git clone https://github.com/exploi8/SHKit.git
 pi@raspberrypi:~ $ cd SHKit
 
 ```
-
 
 #### step 2 ####
 
@@ -61,11 +59,9 @@ If NOT showing the virsion of node and npm, you'll need to re-install it.
 ```sh
 pi@raspberrypi:~ $ sudo apt-get install nodered
 pi@raspberrypi:~ $ sudo dpkg --configure -a
-pi@raspberrypi:~ $ sudo reboot
+pi@raspberrypi:~ $ sudpi@raspberrypi:~/.node-red o reboot
 
 ```
-
-#### step 3 ####
 
 Auto start services on boot, by entering the following commands:
 
@@ -79,7 +75,22 @@ You can specify the service you want it to run on boot with follwing syntax repl
 sudo systemctl daemon-reload
 sudo systemctl enable sample.service
 
+Install Node-RED Dashboard blugin.
+
+```sh
+pi@raspberrypi:~ $ cd .node-red
+pi@raspberrypi:~/.node-red $ npm i node-red-dashboard
+pi@raspberrypi:~/.node-red $ sudo reboot
 ```
+
+
+
+
+#### step 3 ####
+
+
+
+
 
 ___
 
