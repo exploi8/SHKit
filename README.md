@@ -1,4 +1,4 @@
-
+## Installation Guide ##
 [![Build Status](https://travis-ci.org/exploi8/SHKit.svg?branch=master)](https://travis-ci.org/exploi8/SHKit)
 
 **Introduction**
