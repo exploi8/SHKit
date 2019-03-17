@@ -8,6 +8,10 @@ Using Node-RED
 
 ![icon](https://ipool.remotewebaccess.com/wp-content/uploads/2019/03/photo_2019-03-17_19-34-16.jpg)
 
+Then copy the content of [flows.js](https://github.com/exploi8/SHKit/blob/master/node/flows.js) into the clipboard
+
+![import](https://ipool.remotewebaccess.com/wp-content/uploads/2019/03/import.png)
+
 Then simply Deploy it by clicking
 
 ![deploy](https://ipool.remotewebaccess.com/wp-content/uploads/2019/03/deploy.png)
@@ -20,7 +24,7 @@ Now when you visit
 
 You will be able to see the follwing interface.
 
-![dashboard](https://ipool.remotewebaccess.com/wp-content/uploads/2019/03/dashboard-480x330.png)
+![dashboard](https://ipool.remotewebaccess.com/wp-content/uploads/2019/03/dashboard-330x480.png)
 
 ___
 
