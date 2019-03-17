@@ -1,24 +1,23 @@
+# Smart Home Kit #
+
 ![icon](https://ipool.remotewebaccess.com/wp-content/uploads/2019/03/HomeKit-Icon_4-100x100.jpg)
 
-## Smart Home Kit ##
+## Installation Guide ##
 
-### Installation Guide ###
 [![Build Status](https://travis-ci.org/exploi8/SHKit.svg?branch=master)](https://travis-ci.org/exploi8/SHKit)
 
-**Introduction**
+** Introduction **
 
 First things first, you need to know the concept of connectiong a micro controller with a server to be able to walk throughout this guide with no problems.
 
 In order for you to install and setup the required software and hardware together you will need the following:
 
-### Hardware parts: ###
+### Hardware parts ###
 
- - RaspberryPi as a micro controller can be purshased from any online store.
- - Relays module to preform switching an electrical component on and off simultaneously.
- - Breadboard to make connections with I/O pins. (optional)
- - Cables.
-
-
+- RaspberryPi as a micro controller can be purshased from any online store.
+- Relays module to preform switching an electrical component on and off simultaneously.
+- Breadboard to make connections with I/O pins. (optional)
+- Cables.
 
 #### step 1 ####
 
@@ -28,8 +27,7 @@ Download latest RasparypiPi :link: [(Raspbian Stretch) Operation System][Softwar
 
 **Prepare and initialize required repositories.**
 
-Set a static IP Address 
-
+Set a static IP Address
 
 Open Terminal and type the following commands:
 
@@ -56,10 +54,10 @@ pi@raspberrypi:~ $ npm -v
 
 Auto start services on boot, by entering the following commands:
 
-
 ```sh
 pi@raspberrypi:~ $ sudo systemctl enable nodered.service
 ````
+
 You can specify the service you want it to run on boot with follwing syntax replacing ~~sample~~
 
 ```sh
@@ -73,8 +71,8 @@ pi@raspberrypi:~ $ cd .node-red
 pi@raspberrypi:~/.node-red $ npm i node-red-dashboard
 pi@raspberrypi:~/.node-red $ sudo reboot
 ```
-Now you can open your browser and point to your IP address and Node-RED default port 1880
 
+Now you can open your browser and point to your IP address and Node-RED default port 1880
 
 ##### Flows Control Home Page #####
 
@@ -82,25 +80,15 @@ Now you can open your browser and point to your IP address and Node-RED default 
 
 ![Node-RED](https://ipool.remotewebaccess.com/wp-content/uploads/2019/03/IMG_9162.jpg)
 
-
 ##### Dashboard Home Page #####
 
 [http://127.0.0.1:1880/ui](http://127.0.0.1:1880/ui)
 
 ![Node-RED-ui](https://ipool.remotewebaccess.com/wp-content/uploads/2019/03/photo_2019-03-16_23-25-01-330x480.jpg)
 
-
-
-
-
 #### step 3 ####
 
-
-
-
-
 ___
-
 
 Check out the [iESH docs][iESH-docs] for more info on how to get the most out of iEcho Smart Systems. File all bugs/feature requests at [iESH’s GitHub repo][iESH-gh]
 
