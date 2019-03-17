@@ -6,7 +6,7 @@ Using Node-RED
 
 [http://127.0.0.1:1880](http://127.0.0.1:1880)
 
-![icon](https://ipool.remotewebaccess.com/wp-content/uploads/2019/03/photo_2019-03-17_19-34-16-100x100.jpg)
+![icon](https://ipool.remotewebaccess.com/wp-content/uploads/2019/03/photo_2019-03-17_19-34-16.jpg)
 
 Then simply Deploy it by clicking
 
@@ -20,7 +20,7 @@ Now when you visit
 
 You will be able to see the follwing interface.
 
-![dashboard](https://ipool.remotewebaccess.com/wp-content/uploads/2019/03/dashboard.png)
+![dashboard](https://ipool.remotewebaccess.com/wp-content/uploads/2019/03/dashboard-480x330.png)
 
 ___
 
