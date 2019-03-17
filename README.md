@@ -88,6 +88,7 @@ Now you can open your browser and point to your IP address and Node-RED default 
 
 #### step 3 ####
 
+[Continuo to next step](https://github.com/exploi8/SHKit/blob/master/node/)
 ___
 
 Check out the [iESH docs][iESH-docs] for more info on how to get the most out of iEcho Smart Systems. File all bugs/feature requests at [iESH’s GitHub repo][iESH-gh]
