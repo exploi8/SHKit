@@ -14,7 +14,7 @@ clear
 #sleep 0.4
 #clear
 #echo 'Copying files . .'
-#sleep 0.5
+#sleep 0.6
 #clear
 #echo 'Copying files . . .'
 #sleep 0.6
